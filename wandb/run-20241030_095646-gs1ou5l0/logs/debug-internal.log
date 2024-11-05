@@ -1,0 +1,19 @@
+{"time":"2024-10-30T09:56:46.170181+07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-30T09:56:46.170181+07:00","level":"INFO","msg":"created symlink","path":"F:\\DSC_B_2024\\wandb\\run-20241030_095646-gs1ou5l0\\logs\\debug-core.log"}
+{"time":"2024-10-30T09:56:47.21438+07:00","level":"INFO","msg":"created new stream","id":"gs1ou5l0"}
+{"time":"2024-10-30T09:56:47.21438+07:00","level":"INFO","msg":"stream: started","id":"gs1ou5l0"}
+{"time":"2024-10-30T09:56:47.2151347+07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"gs1ou5l0"}}
+{"time":"2024-10-30T09:56:47.2151347+07:00","level":"INFO","msg":"sender: started","stream_id":"gs1ou5l0"}
+{"time":"2024-10-30T09:56:47.2151347+07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"gs1ou5l0"}}
+{"time":"2024-10-30T09:56:48.5358441+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-30T09:56:48.952841+07:00","level":"INFO","msg":"stream: closing","id":"gs1ou5l0"}
+{"time":"2024-10-30T09:56:48.9560777+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-30T09:56:49.0385436+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-30T09:56:50.1422501+07:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-30T09:56:50.1422501+07:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-30T09:56:50.1422501+07:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-30T09:56:51.0556809+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-30T09:56:51.8074133+07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"gs1ou5l0"}}
+{"time":"2024-10-30T09:56:51.8074133+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"gs1ou5l0"}}
+{"time":"2024-10-30T09:56:51.8074133+07:00","level":"INFO","msg":"sender: closed","stream_id":"gs1ou5l0"}
+{"time":"2024-10-30T09:56:51.807925+07:00","level":"INFO","msg":"stream: closed","id":"gs1ou5l0"}

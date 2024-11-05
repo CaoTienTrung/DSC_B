@@ -1,0 +1,81 @@
+_wandb:
+    value:
+        cli_version: 0.18.5
+        m: []
+        python_version: 3.11.9
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+            "2":
+                - 1
+                - 5
+                - 11
+                - 41
+                - 49
+                - 53
+                - 55
+            "3":
+                - 15
+                - 16
+                - 23
+                - 55
+            "4": 3.11.9
+            "5": 0.18.5
+            "6": 4.45.2
+            "8":
+                - 3
+                - 5
+            "12": 0.18.5
+            "13": windows-amd64
+adam_epsilon:
+    value: 1e-08
+clip_learning_rate:
+    value: 1e-06
+dev_batch_size:
+    value: 32
+device:
+    value: "-1"
+dropout_rate:
+    value: 0.1
+image_size:
+    value: 768
+label_number:
+    value: 2
+layers:
+    value: 3
+learning_rate:
+    value: 0.001
+limit:
+    value: null
+max_grad_norm:
+    value: 5
+max_len:
+    value: 77
+model:
+    value: MV_CLIP
+num_train_epochs:
+    value: 1
+optimizer_name:
+    value: adam
+output_dir:
+    value: ../output_dir/
+seed:
+    value: 42
+simple_linear:
+    value: false
+text_name:
+    value: text_json_final
+text_size:
+    value: 512
+train_batch_size:
+    value: 32
+warmup_proportion:
+    value: 0.2
+weight_decay:
+    value: 0.05

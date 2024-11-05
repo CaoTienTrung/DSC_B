@@ -1,0 +1,38 @@
+{
+  "os": "Windows-10-10.0.22631-SP0",
+  "python": "3.11.9",
+  "startedAt": "2024-10-30T03:08:49.101771Z",
+  "program": "f:\\DSC_B_2024\\train.py",
+  "codePath": "train.py",
+  "email": "22521553@gm.uit.edu.vn",
+  "root": "F:\\DSC_B_2024",
+  "host": "LAPTOP-5DQQ5LDG",
+  "username": "ADMIN",
+  "executable": "C:\\Users\\ADMIN\\.conda\\envs\\my_project_env\\python.exe",
+  "codePathLocal": "train.py",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "GeForce GTX 1650",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "295278997504",
+      "used": "61499584512"
+    }
+  },
+  "memory": {
+    "total": "16965230592"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "GeForce GTX 1650",
+      "memoryTotal": "4294967296",
+      "architecture": "Turing"
+    }
+  ],
+  "cudaVersion": "11.2"
+}

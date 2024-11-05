@@ -1,0 +1,27 @@
+2024-10-30 10:10:46,865 INFO    MainThread:10808 [wandb_setup.py:_flush():79] Current SDK version is 0.18.5
+2024-10-30 10:10:46,865 INFO    MainThread:10808 [wandb_setup.py:_flush():79] Configure stats pid to 10808
+2024-10-30 10:10:46,866 INFO    MainThread:10808 [wandb_setup.py:_flush():79] Loading settings from C:\Users\ADMIN\.config\wandb\settings
+2024-10-30 10:10:46,866 INFO    MainThread:10808 [wandb_setup.py:_flush():79] Loading settings from F:\DSC_B_2024\wandb\settings
+2024-10-30 10:10:46,866 INFO    MainThread:10808 [wandb_setup.py:_flush():79] Loading settings from environment variables: {}
+2024-10-30 10:10:46,866 INFO    MainThread:10808 [wandb_setup.py:_flush():79] Applying setup settings: {'mode': None, '_disable_service': None}
+2024-10-30 10:10:46,866 INFO    MainThread:10808 [wandb_setup.py:_flush():79] Inferring run settings from compute environment: {'program_relpath': 'train.py', 'program_abspath': 'f:\\DSC_B_2024\\train.py', 'program': 'f:\\DSC_B_2024\\train.py'}
+2024-10-30 10:10:46,866 INFO    MainThread:10808 [wandb_setup.py:_flush():79] Applying login settings: {}
+2024-10-30 10:10:46,867 INFO    MainThread:10808 [wandb_init.py:_log_setup():534] Logging user logs to F:\DSC_B_2024\wandb\run-20241030_101046-rdygc1mm\logs\debug.log
+2024-10-30 10:10:46,867 INFO    MainThread:10808 [wandb_init.py:_log_setup():535] Logging internal logs to F:\DSC_B_2024\wandb\run-20241030_101046-rdygc1mm\logs\debug-internal.log
+2024-10-30 10:10:46,867 INFO    MainThread:10808 [wandb_init.py:init():621] calling init triggers
+2024-10-30 10:10:46,867 INFO    MainThread:10808 [wandb_init.py:init():628] wandb.init called with sweep_config: {}
+config: {'device': '1', 'model': 'MV_CLIP', 'text_name': 'text_data', 'simple_linear': False, 'num_train_epochs': 1, 'train_batch_size': 32, 'dev_batch_size': 32, 'label_number': 2, 'text_size': 512, 'image_size': 768, 'adam_epsilon': 1e-08, 'optimizer_name': 'adam', 'learning_rate': 0.0005, 'clip_learning_rate': 1e-06, 'max_len': 77, 'layers': 3, 'max_grad_norm': 5.0, 'weight_decay': 0.05, 'warmup_proportion': 0.2, 'dropout_rate': 0.1, 'output_dir': '../output_dir/', 'limit': None, 'seed': 42}
+2024-10-30 10:10:46,867 INFO    MainThread:10808 [wandb_init.py:init():671] starting backend
+2024-10-30 10:10:46,867 INFO    MainThread:10808 [wandb_init.py:init():675] sending inform_init request
+2024-10-30 10:10:46,870 INFO    MainThread:10808 [backend.py:_multiprocessing_setup():104] multiprocessing start_methods=spawn, using: spawn
+2024-10-30 10:10:46,870 INFO    MainThread:10808 [wandb_init.py:init():688] backend started and connected
+2024-10-30 10:10:46,876 INFO    MainThread:10808 [wandb_init.py:init():783] updated telemetry
+2024-10-30 10:10:46,877 INFO    MainThread:10808 [wandb_init.py:init():816] communicating run to backend with 90.0 second timeout
+2024-10-30 10:10:48,469 INFO    MainThread:10808 [wandb_init.py:init():867] starting run threads in backend
+2024-10-30 10:10:48,846 INFO    MainThread:10808 [wandb_run.py:_console_start():2463] atexit reg
+2024-10-30 10:10:48,846 INFO    MainThread:10808 [wandb_run.py:_redirect():2311] redirect: wrap_raw
+2024-10-30 10:10:48,847 INFO    MainThread:10808 [wandb_run.py:_redirect():2376] Wrapping output streams.
+2024-10-30 10:10:48,847 INFO    MainThread:10808 [wandb_run.py:_redirect():2401] Redirects installed.
+2024-10-30 10:10:48,851 INFO    MainThread:10808 [wandb_init.py:init():911] run started, returning control to user process
+2024-10-30 10:10:57,062 INFO    MainThread:10808 [wandb_watch.py:_watch():71] Watching
+2024-10-30 10:10:57,094 WARNING MsgRouterThr:10808 [router.py:message_loop():77] message_loop has been closed

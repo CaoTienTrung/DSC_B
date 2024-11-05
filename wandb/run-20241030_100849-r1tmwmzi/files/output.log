@@ -1,0 +1,16 @@
+0
+10/30/2024 10:08:55 - INFO - numexpr.utils -   NumExpr defaulting to 8 threads.
+Traceback (most recent call last):
+  File "f:\DSC_B_2024\train.py", line 252, in <module>
+    main()
+  File "f:\DSC_B_2024\train.py", line 249, in main
+    train(args, model, device, train_data, dev_data, test_data, processor)
+  File "f:\DSC_B_2024\train.py", line 34, in train
+    train_loader = DataLoader(dataset=train_data,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\.conda\envs\my_project_env\Lib\site-packages\torch\utils\data\dataloader.py", line 376, in __init__
+    sampler = RandomSampler(dataset, generator=generator)  # type: ignore[arg-type]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ADMIN\.conda\envs\my_project_env\Lib\site-packages\torch\utils\data\sampler.py", line 164, in __init__
+    raise ValueError(
+ValueError: num_samples should be a positive integer value, but got num_samples=0

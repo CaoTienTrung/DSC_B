@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "F:\DSC_B_2024\train.py", line 251, in <module>
+    main()
+  File "F:\DSC_B_2024\train.py", line 238, in main
+    train_data = Sacarsm(mode='train', text_name=args.text_name, limit=None)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\DSC_B_2024\dataset.py", line 13, in __init__
+    self.data = self.load_data(mode, limit)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\DSC_B_2024\dataset.py", line 22, in load_data
+    f1=open(os.path.join(WORKING_PATH, self.text_name, mode+'.json'),'r', encoding='utf-8')
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [Errno 22] Invalid argument: 'F:\\DSC_B_2024\\data\text_data\\train.json'

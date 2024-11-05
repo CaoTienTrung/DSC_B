@@ -1,0 +1,13 @@
+Traceback (most recent call last):
+  File "F:\DSC_B_2024\main.py", line 89, in <module>
+    main()
+  File "F:\DSC_B_2024\main.py", line 72, in main
+    dev_data = Sacarsm(mode='valid', text_name=args.text_name, limit=None)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\DSC_B_2024\dataset.py", line 13, in __init__
+    self.data = self.load_data(mode, limit)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\DSC_B_2024\dataset.py", line 37, in load_data
+    f1= open(os.path.join(WORKING_PATH, self.text_name ,mode+".json"),'r',encoding='utf-8')
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '../data\\text_json_final\\valid.json'

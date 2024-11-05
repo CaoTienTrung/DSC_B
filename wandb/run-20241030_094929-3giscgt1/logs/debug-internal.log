@@ -1,0 +1,19 @@
+{"time":"2024-10-30T09:49:29.5415869+07:00","level":"INFO","msg":"using version","core version":"0.18.5"}
+{"time":"2024-10-30T09:49:29.5421114+07:00","level":"INFO","msg":"created symlink","path":"F:\\DSC_B_2024\\wandb\\run-20241030_094929-3giscgt1\\logs\\debug-core.log"}
+{"time":"2024-10-30T09:49:30.6758169+07:00","level":"INFO","msg":"created new stream","id":"3giscgt1"}
+{"time":"2024-10-30T09:49:30.6758169+07:00","level":"INFO","msg":"stream: started","id":"3giscgt1"}
+{"time":"2024-10-30T09:49:30.6769717+07:00","level":"INFO","msg":"handler: started","stream_id":{"value":"3giscgt1"}}
+{"time":"2024-10-30T09:49:30.6769717+07:00","level":"INFO","msg":"sender: started","stream_id":"3giscgt1"}
+{"time":"2024-10-30T09:49:30.6769717+07:00","level":"INFO","msg":"writer: Do: started","stream_id":{"value":"3giscgt1"}}
+{"time":"2024-10-30T09:49:31.3599974+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2024-10-30T09:49:31.7805278+07:00","level":"INFO","msg":"stream: closing","id":"3giscgt1"}
+{"time":"2024-10-30T09:49:31.7805278+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2024-10-30T09:49:31.8715143+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2024-10-30T09:49:32.7808417+07:00","level":"WARN","msg":"No job ingredients found, not creating job artifact"}
+{"time":"2024-10-30T09:49:32.7808417+07:00","level":"WARN","msg":"No source type found, not creating job artifact"}
+{"time":"2024-10-30T09:49:32.7808417+07:00","level":"INFO","msg":"sender: sendDefer: no job artifact to save"}
+{"time":"2024-10-30T09:49:33.8037154+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2024-10-30T09:49:34.3457249+07:00","level":"INFO","msg":"handler: closed","stream_id":{"value":"3giscgt1"}}
+{"time":"2024-10-30T09:49:34.3457249+07:00","level":"INFO","msg":"sender: closed","stream_id":"3giscgt1"}
+{"time":"2024-10-30T09:49:34.3457249+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":{"value":"3giscgt1"}}
+{"time":"2024-10-30T09:49:34.346482+07:00","level":"INFO","msg":"stream: closed","id":"3giscgt1"}
